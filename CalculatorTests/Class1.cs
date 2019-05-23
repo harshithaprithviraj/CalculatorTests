@@ -146,10 +146,10 @@ namespace CalculatorTests
             Assert.AreEqual(expectedResult, actualResult);
         }
         [Test]
-        public void GetDivision_Input6point0and5point2_Returns3point0()
+        public void GetDivision_Input3point0and1point0_Returns3point0()
         {//Arrange
-            double firstNumber = 6.0;
-            double secondNumber = 2.0;
+            double firstNumber = 3.0;
+            double secondNumber = 1.0;
             double expectedResult = firstNumber / secondNumber;
             Calc testCalc = new Calc(firstNumber, secondNumber);
             //Act 
