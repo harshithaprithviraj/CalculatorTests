@@ -134,10 +134,10 @@ namespace CalculatorTests
             Assert.AreEqual(expectedResult, actualResult);
         }
         [Test]
-        public void GetMultiplication_Input1point0and5point0_Returns5point0()
+        public void GetMultiplication_Input1point0and4point0_Returns4point0()
         {//Arrange
             double firstNumber = 1.0;
-            double secondNumber = 5.0;
+            double secondNumber = 4.0;
             double expectedResult = firstNumber * secondNumber;
             Calc testCalc = new Calc(firstNumber, secondNumber);
             //Act 
